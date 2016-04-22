@@ -1,0 +1,23 @@
+.jumbotron {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.well {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.btn {
+  margin-right: 50%;
+}
