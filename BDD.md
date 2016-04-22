@@ -1,16 +1,16 @@
-Behavior                  Input Example                 Output Example
-Our Program               When it Receives:             It Should Return:
-Should Handle:
+_Behavior                  Input Example                 Output Example_
+_Our Program               When it Receives:             It Should Return:_
+_Should Handle:_
 
-User inputs a                 "lynx"                        "lynx"
-word with no vowels
+_User inputs a                 "lynx"                        "lynx"_
+_word with no vowels_
 
-User inputs a word            "audio"                       "--d--"
-with vowels
+_User inputs a word            "audio"                       "--d--"_
+_with vowels_
 
-User inputs                 "hello world"                 "h-ll- w-rld"
-multiple words
-with vowels
+_User inputs                 "hello world"                 "h-ll- w-rld"_
+_multiple words_
+_with vowels_
 
-User inputs words            "HEY THERE"                    "h-y th-r-"
-with capitalization
+_User inputs words            "HEY THERE"                    "h-y th-r-"_
+_with capitalization_
