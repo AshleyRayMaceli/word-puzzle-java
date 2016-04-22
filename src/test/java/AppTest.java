@@ -22,4 +22,11 @@ public class AppTest extends FluentTest {
     assertThat(pageSource()).contains("Enter your words here:");
   }
 
+  @Test
+  public void convertWordPuzzle() {
+    goTo("http://localhost:4567/");
+    fill("#words").with("test test");
+    submit(".btn");
+    assertThat(pageSource()).contains("t-st t-st");
+  }
 }
