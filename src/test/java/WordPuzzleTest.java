@@ -17,4 +17,11 @@ public class WordPuzzleTest {
     String expected = "--d--";
     assertEquals(expected, WordPuzzle.convertWordPuzzle("audio"));
   }
+
+  @Test
+  public void convertWordPuzzle_returnMultipleWordWithVowels_String() {
+    WordPuzzle wordPuzzle = new WordPuzzle();
+    String expected = "h-ll- w-rld";
+    assertEquals(expected, WordPuzzle.convertWordPuzzle("hello world"));
+  }
 }
