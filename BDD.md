@@ -1,16 +1,14 @@
-_Behavior_                  _Input Example_                 _Output Example_
-_Our Program               _When it Receives:_             _It Should Return:_
-_Should Handle:_
+_BDD Chart_
 
-_User inputs a_                 _"lynx"_                        _"lynx"_
-_word with no vowels_
-
-_User inputs a word_            _"audio"_                       _"--d--"_
-_with vowels_
-
-_User inputs_                 _"hello world"_                 _"h-ll- w-rld"_
-_multiple words_
-_with vowels_
-
-_User inputs words            _"HEY THERE"_                    _"h-y th-r-"_
-_with capitalization_
+_1. Behavior: User inputs a word with no vowels_
+    _Input example: "lynx"_
+    _Output example: "lynx"_
+_2. Behavior: User inputs a word with vowels_
+    _Input example: "audio"_
+    _Output example: "--d--"_
+_3. Behavior: User inputs multiple words with vowels_
+    _Input example: "hello world"_
+    _Output example: "h-ll- w-rld"_
+_4. Behavior: User inputs words with capitalization_
+    _Input example: "HEY THERE"_
+    _Output example: "h-y th-r-"_
