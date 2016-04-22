@@ -10,4 +10,11 @@ public class WordPuzzleTest {
     String expected = "lynx";
     assertEquals(expected, WordPuzzle.convertWordPuzzle("lynx"));
   }
+
+  @Test
+  public void convertWordPuzzle_returnWordWithVowels_String() {
+    WordPuzzle wordPuzzle = new WordPuzzle();
+    String expected = "--d--";
+    assertEquals(expected, WordPuzzle.convertWordPuzzle("audio"));
+  }
 }
