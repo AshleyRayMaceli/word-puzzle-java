@@ -24,4 +24,11 @@ public class WordPuzzleTest {
     String expected = "h-ll- w-rld";
     assertEquals(expected, WordPuzzle.convertWordPuzzle("hello world"));
   }
+
+  @Test
+  public void convertWordPuzzle_returnMultipleWordWithVowelsInLowerCase_String() {
+    WordPuzzle wordPuzzle = new WordPuzzle();
+    String expected = "h-y th-r-";
+    assertEquals(expected, WordPuzzle.convertWordPuzzle("HEY THERE"));
+  }
 }

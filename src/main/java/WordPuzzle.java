@@ -7,6 +7,7 @@ public class WordPuzzle {
 
     public static String convertWordPuzzle(String input) {
 
+      input = input.toLowerCase();
       String[] wordsToConvert = input.split("");
       String convertedWords = "";
 
