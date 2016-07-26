@@ -1,6 +1,9 @@
+![Puzzle game input](puzzle_1.png)
+![Puzzle game output](puzzle_2.png)
+
 # _Word Puzzle_
 
-#### _A web app to play a simple puzzle game_
+#### _A web app to play a simple puzzle game._
 
 #### By _**Ashley Maceli**_
 
@@ -10,17 +13,18 @@ _A web app where the user enters a word or sentence and receives their statement
 
 ## Setup/Installation Requirements
 
+* _Clone this repository and enter the directory through terminal_
 * _In console run the command 'gradle run'_
 * _Go to http://localhost:4567/_
 
 ## Known Bugs
 
-_Answer to puzzle is shown in results url (the user input)_
+_Answer to puzzle (the user input) is shown in results url._
 
 ## Support and contact details
 
-_For all issues and support, please contact:
-Ashley Maceli at ashley.maceli@gmail.com_
+_For all issues and support, please contact:_
+_Ashley Maceli at ashley.maceli@gmail.com_
 
 ## Technologies Used
 
@@ -28,7 +32,7 @@ _Java, Spark, Velocity, Gradle, JUnit, FluentLenium_
 
 ### License
 
-_The MIT License (MIT)
+The MIT License (MIT)
 
 Copyright (c) [2016] [Ashley Maceli]
 
@@ -48,4 +52,4 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE._
+SOFTWARE.
